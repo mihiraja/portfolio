@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Speech Enhancement (GRU/LSTM/CRN)",
+    "short": "Cleaning noisy audio using neural networks on VoiceBank-DEMAND.",
+    "description": "Explored GRU, LSTM, and CRN architectures for speech enhancement. Preprocessed auditory data, trained and evaluated models, and analyzed PESQ/STOI improvements.",
+    "thumbnail": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?q=80&w=1200&auto=format&fit=crop",
+    "banner": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop",
+    "stack": ["Python", "TensorFlow", "NumPy", "Signal Processing"],
+    "tags": ["Audio ML", "GRU", "LSTM", "CRN"],
+    "links": {
+      "Notes on the Metrics": "/static/Files/SpeechEnhancementNotesMetrics.pdf",
+      "Notes on the Models": "/static/Files/SpeechEnhancementNotesModels.pdf",
+      "GitHub": "https://github.com/mihiraja/speech-enhancement-TF.git"
+    }
+  },
+  {
+    "title": "Yelp Review Rating Predictor",
+    "short": "Predicting ratings (1–5) from review text.",
+    "description": "Built NLP pipeline with TF-IDF + linear model; experimented with GRU/LSTM sequence models. Evaluated with accuracy/MAE and calibration.",
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+    "banner": "https://images.unsplash.com/photo-1487017908705-5c5f10be0c4d?q=80&w=1600&auto=format&fit=crop",
+    "stack": ["Python", "scikit-learn", "TensorFlow"],
+    "tags": ["NLP", "Classification"],
+    "links": {
+      "Github": "https://github.com/mihiraja/Customer_Review_Analysis.git"
+    }
+  },
+  {
+    "title": "Predicting Supplemental Aflibercept Use",
+    "short": "Internship project at Adverum Biotechnologies (Summer 2025).",
+    "description": "Built an ML pipeline on synthetic clinical datasets (mimicking OPTIC & LUNA) to predict supplemental aflibercept treatments. Explored Logistic Regression and Random Forest models, achieving up to 67% accuracy. Designed automated pipeline steps from data cleaning → training → prediction.",
+    "thumbnail": "/static/Files/aflibimage.jpeg",
+    "banner": "https://images.unsplash.com/photo-1559757175-5700dde67544?q=80&w=1600&auto=format&fit=crop",
+    "stack": ["Python", "scikit-learn", "Random Forest", "Logistic Regression"],
+    "tags": ["Healthcare ML", "Internship"],
+    "links": {
+      "Slides": "/static/files/InternshipPresentation.pdf",
+      "LinkedIn": "https://www.linkedin.com/in/mihiraja"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site.title }}{% if title %} – {{ title }}{% endif %}</title>
+    <meta name="description" content="{{ site.tagline }}" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-900">
+    <header class="bg-white sticky top-0 z-30 shadow-sm">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="{{ url_for('home') }}" class="font-bold text-xl">{{ site.title }}</a>
+        <nav class="space-x-6">
+          <a class="hover:underline" href="{{ url_for('projects') }}">Projects</a>
+          <a class="hover:underline" href="{{ url_for('blog') }}">Blog</a>
+          <a class="hover:underline" href="{{ url_for('home') }}#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="border-t">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-500">
+        © <span id="year"></span> {{ site.title }} — Built with Flask.
+      </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>

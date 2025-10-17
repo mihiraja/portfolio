@@ -1,0 +1,12 @@
+[
+  {
+    "title": "From Lab to Product: shipping small bets",
+    "date": "2025-08-24",
+    "content": "Turning insights into features is a team sport. I like small, measurable bets shipped quickly.\n\n- Define success upfront\n- Instrument everything\n- Iterate with users"
+  },
+  {
+    "title": "Notes on Speech Enhancement Models",
+    "date": "2025-08-10",
+    "content": "Quick notes comparing GRU, LSTM, and CRN approaches for speech enhancement on VoiceBank\u2011DEMAND. Metrics: PESQ, STOI. Preprocessing matters a lot."
+  }
+]
